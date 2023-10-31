@@ -1,6 +1,10 @@
+package classes;
+
+import interfaces.Personaje;
+
 /**
- * La clase Villano representa un villano en un juego o simulación.
- * Implementa la interfaz Personaje, esta clase
+ * La clase clases.Villano representa un villano en un juego o simulación.
+ * Implementa la interfaz interfaces.Personaje, esta clase
  * va a implementar todos los métodos definidos en esa interfaz "Personajes".
  * En este caso concreto los personajes solo pueden atacar. 
  */

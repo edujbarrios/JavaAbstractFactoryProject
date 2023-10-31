@@ -1,6 +1,10 @@
+package classes;
+
+import interfaces.Mascota;
+
 /**
- * La clase Serpiente representa una serpiente que sirve como mascota de un villano
- * Implementa la interfaz Mascota, lo que sugiere que esta clas
+ * La clase clases.Serpiente representa una serpiente que sirve como mascota de un villano
+ * Implementa la interfaz interfaces.Mascota, lo que sugiere que esta clas
  */
 public class Serpiente implements Mascota {
 

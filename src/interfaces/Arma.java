@@ -1,5 +1,7 @@
+package interfaces;
+
 /**
- * Interfaz Arma que define el comportamiento que todas las armas deben tener.
+ * Interfaz interfaces.Arma que define el comportamiento que todas las armas deben tener.
  * Cualquier tipo específico de arma que se cree debe implementar este contrato.
  */
 public interface Arma {
@@ -10,5 +12,4 @@ public interface Arma {
      * el arma en cuestión.
      */
     void usar();
-
 }

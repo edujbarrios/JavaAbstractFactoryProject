@@ -1,6 +1,10 @@
+package classes;
+
+import interfaces.Arma;
+
 /**
- * La clase Daga representa una daga que sirve como arma para el villano.
- * Implementa la interfaz Arma, 
+ * La clase clases.Daga representa una daga que sirve como arma para el villano.
+ * Implementa la interfaz interfaces.Arma,
  **/
 public class Daga implements Arma {
 
