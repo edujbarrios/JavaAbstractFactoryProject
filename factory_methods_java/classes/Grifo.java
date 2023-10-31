@@ -1,4 +1,4 @@
-public class AntiHeroe implements Personaje { 
-    private int nivelDeConflicto; 
-    public void atacar() {} 
+public class Grifo implements Mascota { 
+    private double envergaduraAlas; 
+    public void acompanar() {} 
 }
