@@ -1,6 +1,7 @@
 package interfaces;
-import javax.swing.;
-import java.awt.;
+import javax.swing.*;
+import java.awt.*;
+
 
 /**
  * Interfaz interfaces.Mascota que define el comportamiento que todas las mascotas deben tener.
