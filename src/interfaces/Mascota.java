@@ -1,4 +1,6 @@
 package interfaces;
+import javax.swing.;
+import java.awt.;
 
 /**
  * Interfaz interfaces.Mascota que define el comportamiento que todas las mascotas deben tener.
@@ -9,5 +11,5 @@ public interface Mascota {
     /**
      * Método que simula la acción de la mascota acompañando a su dueño.
      */
-    void acompanar();
+    ImageIcon acompanar();
 }
