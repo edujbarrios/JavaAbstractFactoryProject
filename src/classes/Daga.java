@@ -24,6 +24,6 @@ public class Daga implements Arma {
         /**
         * Añadiendo imagen de daga
         */
-        return new ImageIcon("./factory_methods_java/images/dagaimg.jpg");
+        return new ImageIcon("./images/dagaimg.jpg");
     }
 }
