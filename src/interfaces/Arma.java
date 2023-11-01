@@ -1,4 +1,6 @@
 package interfaces;
+import javax.swing.;
+import java.awt.;
 
 /**
  * Interfaz interfaces.Arma que define el comportamiento que todas las armas deben tener.
@@ -11,5 +13,5 @@ public interface Arma {
      * esta interfaz proporcionarán una implementación específica de cómo se usa 
      * el arma en cuestión.
      */
-    void usar();
+    ImageIcon usar();
 }
