@@ -61,6 +61,11 @@ public class MainGUI extends JFrame {
                 imgLabel = new JLabel(icon);
                 add(imgLabel);
 
+                /**
+                 * Reajuste de ventana para mostrar correctamente las imagenes y el texto de la interfaz
+                */
+                pack();
+                setLocationRelativeTo(null);              
                 if (arma_checkbox.isSelected()) arma.usar();
                 if (mascota_checkbox.isSelected()) mascota.acompanar();
             }
