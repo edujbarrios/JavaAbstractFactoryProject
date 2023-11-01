@@ -1,6 +1,6 @@
 package interfaces;
-import javax.swing.;
-import java.awt.;
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * Interfaz interfaces.Arma que define el comportamiento que todas las armas deben tener.
