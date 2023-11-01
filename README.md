@@ -2,6 +2,8 @@
 
 Bienvenido al proyecto "Fábrica de Personajes", donde puedes crear héroes, villanos, anti-héroes y equiparlos con armas y mascotas mágicas.
 
+![Interfaz gráfica de ejemplo](./images/GRAPHIC_INTERFACE_EXAMPLE.png)
+
 ## 📜 Contenido
 
 - **🦸 Héroes**: Personajes con un alto nivel de bondad.
