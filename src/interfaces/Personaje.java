@@ -1,6 +1,7 @@
 package interfaces;
-import javax.swing.;
-import java.awt.;
+import javax.swing.*;
+import java.awt.*;
+
 
 /**
  * Interfaz interfaces.Personaje que define el comportamiento que todos los personajes deben tener.
