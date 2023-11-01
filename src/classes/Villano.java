@@ -24,6 +24,6 @@ public class Villano implements Personaje {
         /**
         * Añadiendo imagen
         */
-        return new ImageIcon("./factory_methods_java/images/villanoimg.jpg");
+        return new ImageIcon("./images/villanoimg.jpg");
     }
 }
