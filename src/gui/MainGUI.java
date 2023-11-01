@@ -11,7 +11,7 @@ public class MainGUI extends JFrame {
     private JComboBox<String> factorySelector;
     private JCheckBox arma_checkbox, mascota_checkbox;
     private JButton finishButton;
-    private JLabel PersonajeLabel, ArmaLabel, MascotaLabel, ProblemaLabel;
+    private JLabel PersonajeLabel, ArmaLabel, MascotaLabel;
 
     public MainGUI() {
         super("Fabrica de Personajes");
