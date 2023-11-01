@@ -24,6 +24,6 @@ public class Serpiente implements Mascota {
         /**
         * Añadiendo imagen de serpiente
         */
-        return new ImageIcon("./factory_methods_java/images/serpienteimg.jpg");
+        return new ImageIcon("./images/serpienteimg.jpg");
     }
 }
