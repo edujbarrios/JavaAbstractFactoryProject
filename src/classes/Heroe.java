@@ -1,8 +1,11 @@
 package classes;
 
 import interfaces.Personaje;
+import javax.swing.*;
 
 public class Heroe implements Personaje {
     private int nivelDeBondad; 
-    public void atacar() {} 
+    public ImageIcon atacar() {
+        return new ImageIcon("./factory_methods_java/images/heroeimg.jpg");
+    }
 }
