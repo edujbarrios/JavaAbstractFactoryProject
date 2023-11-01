@@ -2,6 +2,8 @@ package classes;
 
 import interfaces.Mascota;
 
+import javax.swing.*;
+
 /**
  * La clase clases.Serpiente representa una serpiente que sirve como mascota de un villano
  * Implementa la interfaz interfaces.Mascota, lo que sugiere que esta clas
@@ -18,5 +20,10 @@ public class Serpiente implements Mascota {
     /**
      * Método que representa la acción de acompañar por parte de la serpiente al villano.
      */
-    public void acompanar() {}
+    public ImageIcon acompanar() {
+        /**
+        * Añadiendo imagen de serpiente
+        */
+        return new ImageIcon("./factory_methods_java/images/serpienteimg.jpg");
+    }
 }
