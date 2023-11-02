@@ -1,0 +1,55 @@
+\doxysection{interfaces.\+Personaje\+Factory Interface Reference}
+\hypertarget{interfaceinterfaces_1_1_personaje_factory}{}\label{interfaceinterfaces_1_1_personaje_factory}\index{interfaces.PersonajeFactory@{interfaces.PersonajeFactory}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interfaceinterfaces_1_1_personaje}{Personaje}} \mbox{\hyperlink{interfaceinterfaces_1_1_personaje_factory_ac13a33f62570fc5608dba8f28880c1a1}{crear\+Personaje}} ()
+\item 
+\mbox{\hyperlink{interfaceinterfaces_1_1_arma}{Arma}} \mbox{\hyperlink{interfaceinterfaces_1_1_personaje_factory_a906e441f6948f4204704ae4dc41e7e6e}{crear\+Arma}} ()
+\item 
+\mbox{\hyperlink{interfaceinterfaces_1_1_mascota}{Mascota}} \mbox{\hyperlink{interfaceinterfaces_1_1_personaje_factory_a6ca6df435744749ae3c09ce8fd85aa66}{crear\+Mascota}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interfaz \doxylink{interfaceinterfaces_1_1_personaje_factory}{interfaces.\+Personaje\+Factory} que define los métodos necesarios para crear distintos componentes de un personaje\+: el personaje mismo, su arma y su mascota. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{interfaceinterfaces_1_1_personaje_factory_a906e441f6948f4204704ae4dc41e7e6e}\label{interfaceinterfaces_1_1_personaje_factory_a906e441f6948f4204704ae4dc41e7e6e} 
+\index{interfaces.PersonajeFactory@{interfaces.PersonajeFactory}!crearArma@{crearArma}}
+\index{crearArma@{crearArma}!interfaces.PersonajeFactory@{interfaces.PersonajeFactory}}
+\doxysubsubsection{\texorpdfstring{crearArma()}{crearArma()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceinterfaces_1_1_arma}{Arma}} interfaces.\+Personaje\+Factory.\+crear\+Arma (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Método para crear un arma asociada al personaje. Las clases que implementen esta interfaz definirán qué tipo específico de arma se crea.
+
+\begin{DoxyReturn}{Returns}
+una nueva instancia de una \doxylink{interfaceinterfaces_1_1_arma}{interfaces.\+Arma} 
+\end{DoxyReturn}
+\Hypertarget{interfaceinterfaces_1_1_personaje_factory_a6ca6df435744749ae3c09ce8fd85aa66}\label{interfaceinterfaces_1_1_personaje_factory_a6ca6df435744749ae3c09ce8fd85aa66} 
+\index{interfaces.PersonajeFactory@{interfaces.PersonajeFactory}!crearMascota@{crearMascota}}
+\index{crearMascota@{crearMascota}!interfaces.PersonajeFactory@{interfaces.PersonajeFactory}}
+\doxysubsubsection{\texorpdfstring{crearMascota()}{crearMascota()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceinterfaces_1_1_mascota}{Mascota}} interfaces.\+Personaje\+Factory.\+crear\+Mascota (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Método para crear una mascota asociada al personaje. Las clases que implementen esta interfaz definirán qué tipo específico de mascota se crea.
+
+\begin{DoxyReturn}{Returns}
+una nueva instancia de una \doxylink{interfaceinterfaces_1_1_mascota}{interfaces.\+Mascota} 
+\end{DoxyReturn}
+\Hypertarget{interfaceinterfaces_1_1_personaje_factory_ac13a33f62570fc5608dba8f28880c1a1}\label{interfaceinterfaces_1_1_personaje_factory_ac13a33f62570fc5608dba8f28880c1a1} 
+\index{interfaces.PersonajeFactory@{interfaces.PersonajeFactory}!crearPersonaje@{crearPersonaje}}
+\index{crearPersonaje@{crearPersonaje}!interfaces.PersonajeFactory@{interfaces.PersonajeFactory}}
+\doxysubsubsection{\texorpdfstring{crearPersonaje()}{crearPersonaje()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interfaceinterfaces_1_1_personaje}{Personaje}} interfaces.\+Personaje\+Factory.\+crear\+Personaje (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Método para crear un nuevo personaje. Las clases que implementen esta interfaz definirán qué tipo específico de personaje se crea.
+
+\begin{DoxyReturn}{Returns}
+una nueva instancia de un \doxylink{interfaceinterfaces_1_1_personaje}{interfaces.\+Personaje} 
+\end{DoxyReturn}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/interfaces/\mbox{\hyperlink{_personaje_factory_8java}{Personaje\+Factory.\+java}}\end{DoxyCompactItemize}
